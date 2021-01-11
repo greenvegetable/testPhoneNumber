@@ -7,12 +7,53 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ClassPatternConfiguration">
+    <testPatterns>
+      <classPattern testedClass="$CLASS$" testClass="test/$CLASS$Test" />
+    </testPatterns>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="JUnitClassTemplateConfiguration">
+    <option name="DONT_SHOW_TEMPLATE_DIALOG_IF_ONLY_ONE_TEMPLATE" value="false" />
+    <option name="DONT_SHOW_METHODS_DIALOG_IF_ONLY_ONE_METHOD" value="false" />
+    <option name="LAST_TEMPLATE_NAME" value="Default Test Class.java" />
+    <option name="TEST_TEMPLATES">
+      <value>
+        <list size="1">
+          <item index="0" class="java.lang.String" itemvalue="Default Test Class.java" />
+        </list>
+      </value>
+    </option>
+  </component>
+  <component name="JUnitMethodTemplateConfiguration">
+    <option name="DONT_SHOW_TEMPLATE_DIALOG_IF_ONLY_ONE_TEMPLATE" value="false" />
+    <option name="DONT_SHOW_METHODS_DIALOG_IF_ONLY_ONE_METHOD" value="false" />
+    <option name="LAST_TEMPLATE_NAME" value="Default Test Method.java" />
+    <option name="TEST_TEMPLATES">
+      <value>
+        <list size="2">
+          <item index="0" class="java.lang.String" itemvalue="Default Test Method.java" />
+          <item index="1" class="java.lang.String" itemvalue="Test Method throws Exception.java" />
+        </list>
+      </value>
+    </option>
+  </component>
+  <component name="JUnitTestConfiguration">
+    <option name="IS_AUTO_TEST_CLASS_RENAME_ENABLED" value="true" />
+    <option name="IS_AUTO_TEST_CLASS_MOVE_ENABLED" value="true" />
+    <option name="IS_AUTO_TEST_CLASS_REFACTORING_ENABLED" value="true" />
+    <option name="IS_AUTO_TEST_METHODS_RENAME_ENABLED" value="true" />
+    <option name="IS_UNTESTED_METHOD_ICON_ENABLED" value="true" />
+    <option name="IS_GET_METHOD_ICONS_ENABLED" value="true" />
+    <option name="IS_SET_METHOD_ICONS_ENABLED" value="true" />
+    <option name="IS_UNIT_TEST_ENABLED" value="true" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -31,31 +72,117 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/CodeSoftWare/jdk/jdk1.8.0_152" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/demo" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager">
-    <configuration name="testPhoneCombination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.demo" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.demo" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\LUACODE\testPhoneNumber\src\main\java\com\demo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.PhoneCombinationTest.test_phoneNumberCombinations">
+    <configuration name="PhoneCombination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="D:/CodeSoftWare/jdk/jdk1.8.0_152" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="testPhoneCombination" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.PhoneCombination" />
       <module name="testPhoneNumber" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhoneCombinationTest.test" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="testPhoneNumber" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.PhoneCombinationTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhoneCombinationTest.testInteger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testPhoneNumber" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.PhoneCombinationTest" />
+      <option name="METHOD_NAME" value="testInteger" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhoneCombinationTest.testStrin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testPhoneNumber" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.PhoneCombinationTest" />
+      <option name="METHOD_NAME" value="testStrin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhoneCombinationTest.test_phoneNumberCombinations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testPhoneNumber" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.PhoneCombinationTest" />
+      <option name="METHOD_NAME" value="test_phoneNumberCombinations" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.testPhoneCombination" />
+        <item itemvalue="JUnit.PhoneCombinationTest.test_phoneNumberCombinations" />
+        <item itemvalue="Application.PhoneCombination" />
+        <item itemvalue="JUnit.PhoneCombinationTest.testStrin" />
+        <item itemvalue="JUnit.PhoneCombinationTest.testInteger" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\admin\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -65,6 +192,11 @@
       <option name="presentableId" value="Default" />
       <updated>1610003916432</updated>
       <workItem from="1610003920753" duration="6311000" />
+      <workItem from="1610070098368" duration="6624000" />
+      <workItem from="1610086558011" duration="1764000" />
+      <workItem from="1610094369570" duration="2340000" />
+      <workItem from="1610098651622" duration="3539000" />
+      <workItem from="1610329472832" duration="4468000" />
     </task>
     <servers />
   </component>
@@ -72,65 +204,96 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610006188580">
+    <state x="439" y="66" key="#Notifications" timestamp="1610086868667">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.832@0.0.1536.832" timestamp="1610006188580" />
-    <state x="570" y="171" key="FileChooserDialogImpl" timestamp="1610006394754">
+    <state x="439" y="66" key="#Notifications/0.0.1536.832@0.0.1536.832" timestamp="1610086868667" />
+    <state x="557" y="62" key="#PhoneCombinationTest.test" timestamp="1610099725550">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state x="570" y="171" key="FileChooserDialogImpl/0.0.1536.832@0.0.1536.832" timestamp="1610006394754" />
-    <state width="1493" height="180" key="GridCell.Tab.0.bottom" timestamp="1610010548687">
+    <state x="557" y="62" key="#PhoneCombinationTest.test/0.0.1536.832@0.0.1536.832" timestamp="1610099725550" />
+    <state x="0" y="150" key="#Project_Structure" timestamp="1610073861841">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1493" height="180" key="GridCell.Tab.0.bottom/0.0.1536.832@0.0.1536.832" timestamp="1610010548687" />
-    <state width="1493" height="180" key="GridCell.Tab.0.center" timestamp="1610010548686">
+    <state x="0" y="150" key="#Project_Structure/0.0.1536.832@0.0.1536.832" timestamp="1610073861841" />
+    <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610075482591">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1493" height="180" key="GridCell.Tab.0.center/0.0.1536.832@0.0.1536.832" timestamp="1610010548686" />
-    <state width="1493" height="180" key="GridCell.Tab.0.left" timestamp="1610010548684">
+    <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.832@0.0.1536.832" timestamp="1610075482591" />
+    <state x="578" y="188" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1610087786460">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1493" height="180" key="GridCell.Tab.0.left/0.0.1536.832@0.0.1536.832" timestamp="1610010548684" />
-    <state width="1493" height="180" key="GridCell.Tab.0.right" timestamp="1610010548687">
+    <state x="578" y="188" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1536.832@0.0.1536.832" timestamp="1610087786460" />
+    <state x="627" y="266" width="439" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1610098683039">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1493" height="180" key="GridCell.Tab.0.right/0.0.1536.832@0.0.1536.832" timestamp="1610010548687" />
-    <state width="1493" height="264" key="GridCell.Tab.1.bottom" timestamp="1610009154059">
+    <state x="627" y="266" width="439" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.832@0.0.1536.832" timestamp="1610098683039" />
+    <state x="570" y="171" key="FileChooserDialogImpl" timestamp="1610333943428">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1493" height="264" key="GridCell.Tab.1.bottom/0.0.1536.832@0.0.1536.832" timestamp="1610009154059" />
-    <state width="1493" height="264" key="GridCell.Tab.1.center" timestamp="1610009154059">
+    <state x="570" y="171" key="FileChooserDialogImpl/0.0.1536.832@0.0.1536.832" timestamp="1610333943428" />
+    <state width="1172" height="250" key="GridCell.Tab.0.bottom" timestamp="1610332831141">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1493" height="264" key="GridCell.Tab.1.center/0.0.1536.832@0.0.1536.832" timestamp="1610009154059" />
-    <state width="1493" height="264" key="GridCell.Tab.1.left" timestamp="1610009154058">
+    <state width="1172" height="250" key="GridCell.Tab.0.bottom/0.0.1536.832@0.0.1536.832" timestamp="1610332831141" />
+    <state width="1172" height="250" key="GridCell.Tab.0.center" timestamp="1610332831139">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1493" height="264" key="GridCell.Tab.1.left/0.0.1536.832@0.0.1536.832" timestamp="1610009154058" />
-    <state width="1493" height="264" key="GridCell.Tab.1.right" timestamp="1610009154059">
+    <state width="1172" height="250" key="GridCell.Tab.0.center/0.0.1536.832@0.0.1536.832" timestamp="1610332831139" />
+    <state width="1172" height="250" key="GridCell.Tab.0.left" timestamp="1610332831137">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="1493" height="264" key="GridCell.Tab.1.right/0.0.1536.832@0.0.1536.832" timestamp="1610009154059" />
-    <state x="270" y="0" key="SettingsEditor" timestamp="1610006506685">
+    <state width="1172" height="250" key="GridCell.Tab.0.left/0.0.1536.832@0.0.1536.832" timestamp="1610332831137" />
+    <state width="1172" height="250" key="GridCell.Tab.0.right" timestamp="1610332831140">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state x="270" y="0" key="SettingsEditor/0.0.1536.832@0.0.1536.832" timestamp="1610006506685" />
-    <state x="447" y="15" width="642" height="801" key="find.popup" timestamp="1610010974399">
+    <state width="1172" height="250" key="GridCell.Tab.0.right/0.0.1536.832@0.0.1536.832" timestamp="1610332831140" />
+    <state width="1172" height="240" key="GridCell.Tab.1.bottom" timestamp="1610332446629">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state x="447" y="15" width="642" height="801" key="find.popup/0.0.1536.832@0.0.1536.832" timestamp="1610010974399" />
+    <state width="1172" height="240" key="GridCell.Tab.1.bottom/0.0.1536.832@0.0.1536.832" timestamp="1610332446629" />
+    <state width="1172" height="240" key="GridCell.Tab.1.center" timestamp="1610332446628">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="1172" height="240" key="GridCell.Tab.1.center/0.0.1536.832@0.0.1536.832" timestamp="1610332446628" />
+    <state width="1172" height="240" key="GridCell.Tab.1.left" timestamp="1610332446628">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="1172" height="240" key="GridCell.Tab.1.left/0.0.1536.832@0.0.1536.832" timestamp="1610332446628" />
+    <state width="1172" height="240" key="GridCell.Tab.1.right" timestamp="1610332446629">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state width="1172" height="240" key="GridCell.Tab.1.right/0.0.1536.832@0.0.1536.832" timestamp="1610332446629" />
+    <state x="222" y="93" key="Maven.ArtifactSearchDialog" timestamp="1610097761878">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="222" y="93" key="Maven.ArtifactSearchDialog/0.0.1536.832@0.0.1536.832" timestamp="1610097761878" />
+    <state x="478" y="136" width="844" height="604" key="NewModule_or_Project.wizard" timestamp="1610094468488">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="478" y="136" width="844" height="604" key="NewModule_or_Project.wizard/0.0.1536.832@0.0.1536.832" timestamp="1610094468488" />
+    <state x="195" y="58" width="996" height="707" key="SettingsEditor" timestamp="1610099273075">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="195" y="58" width="996" height="707" key="SettingsEditor/0.0.1536.832@0.0.1536.832" timestamp="1610099273075" />
+    <state x="337" y="211" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1610073904151">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="337" y="211" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.832@0.0.1536.832" timestamp="1610073904151" />
+    <state x="18" y="0" width="791" height="838" key="dock-window-1" timestamp="1610330102396">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="18" y="0" width="791" height="838" key="dock-window-1/0.0.1536.832@0.0.1536.832" timestamp="1610330102396" />
+    <state x="447" y="15" width="642" height="801" key="find.popup" timestamp="1610076216132">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="447" y="15" width="642" height="801" key="find.popup/0.0.1536.832@0.0.1536.832" timestamp="1610076216132" />
+    <state x="54" y="154" width="670" height="676" key="search.everywhere.popup" timestamp="1610073428679">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="54" y="154" width="670" height="676" key="search.everywhere.popup/0.0.1536.832@0.0.1536.832" timestamp="1610073428679" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/testPhoneCombination.java</url>
-          <line>53</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="digits.charAt(flag)" />
