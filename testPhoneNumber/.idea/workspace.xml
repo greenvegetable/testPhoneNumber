@@ -113,7 +113,7 @@
       <recent name="D:\code\LUACODE\testPhoneNumber\src\main\java\com\demo" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PhoneCombinationTest.test_phoneNumberCombinations">
+  <component name="RunManager" selected="JUnit.PhoneCombinationTest">
     <configuration name="PhoneCombination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../../CodeSoftWare/jdk/jdk1.8.0_152" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -129,6 +129,21 @@
           <option name="containerStateName" value="" />
         </value>
       </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhoneCombinationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testPhoneNumber" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.PhoneCombinationTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -202,6 +217,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PhoneCombinationTest" />
         <item itemvalue="JUnit.PhoneCombinationTest.test_phoneNumberCombinations" />
         <item itemvalue="Application.PhoneCombination" />
         <item itemvalue="JUnit.PhoneCombinationTest.testStrin" />
@@ -226,7 +242,7 @@
       <workItem from="1610094369570" duration="2340000" />
       <workItem from="1610098651622" duration="3539000" />
       <workItem from="1610329472832" duration="4468000" />
-      <workItem from="1614237712722" duration="765000" />
+      <workItem from="1614237712722" duration="1353000" />
     </task>
     <servers />
   </component>

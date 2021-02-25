@@ -22,7 +22,6 @@ public class PhoneCombination {
         for (String s : list) {
             System.out.print(s + "   ");
         }
-
         return list;
     }
 
@@ -35,10 +34,8 @@ public class PhoneCombination {
             list.add(s);//add the results to the list
             return;
         }
-
         String chars = strings[digits.charAt(flag) - '0'];
         for (int i = 0; i < chars.length(); i++) {//traverse all  chars corresponding to the number:2-->"abc",3-->"def"
-
             backtracking(s + chars.charAt(i), digits, flag + 1, list);
         }
     }
