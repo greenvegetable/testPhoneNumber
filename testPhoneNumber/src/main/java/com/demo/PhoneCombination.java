@@ -12,18 +12,13 @@ public class PhoneCombination {
         StringBuffer tmpStr = new StringBuffer();
         for (int i = 0; i < numberStrArr.length; i++) {
             tmpStr.append(numberStrArr[i]);
-
         }
        String numbers= tmpStr.toString();
-
-
         List<String> list = new ArrayList<String>();
         if (numbers.length() == 0) {
             return list;
         }
-        backtracking("", numbers, 0, list);//回溯
-
-
+        backtracking("", numbers, 0, list);// look back upon
         for (String s : list) {
             System.out.print(s + "   ");
         }

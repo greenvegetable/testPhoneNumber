@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="74eba6bc-c855-4912-ab6a-9332c8905b1c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,6 +14,9 @@
     <testPatterns>
       <classPattern testedClass="$CLASS$" testClass="test/$CLASS$Test" />
     </testPatterns>
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -56,19 +62,24 @@
     <option name="IS_UNIT_TEST_ENABLED" value="true" />
   </component>
   <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\CodeSoftWare\maven\maven3.6.3Repository" />
+        <option name="mavenHome" value="D:\CodeSoftWare\maven\apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\CodeSoftWare\maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1mjPEfkHUrbora5Lm2QWBxSkzrq" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -80,7 +91,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -98,10 +109,21 @@
   </component>
   <component name="RunManager" selected="JUnit.PhoneCombinationTest.test_phoneNumberCombinations">
     <configuration name="PhoneCombination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="D:/CodeSoftWare/jdk/jdk1.8.0_152" />
+      <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../../CodeSoftWare/jdk/jdk1.8.0_152" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.demo.PhoneCombination" />
       <module name="testPhoneNumber" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -181,6 +203,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>C:\Users\admin\AppData\Roaming\Subversion</configuration>
   </component>
@@ -197,13 +220,18 @@
       <workItem from="1610094369570" duration="2340000" />
       <workItem from="1610098651622" duration="3539000" />
       <workItem from="1610329472832" duration="4468000" />
+      <workItem from="1614237712722" duration="385000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="553" y="266" key="#Configure_Path_Variables" timestamp="1614237726292">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="553" y="266" key="#Configure_Path_Variables/0.0.1536.832@0.0.1536.832" timestamp="1614237726292" />
     <state x="439" y="66" key="#Notifications" timestamp="1610086868667">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
@@ -228,10 +256,10 @@
       <screen x="0" y="0" width="1536" height="832" />
     </state>
     <state x="627" y="266" width="439" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.832@0.0.1536.832" timestamp="1610098683039" />
-    <state x="570" y="171" key="FileChooserDialogImpl" timestamp="1610333943428">
+    <state x="570" y="171" key="FileChooserDialogImpl" timestamp="1614237764987">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state x="570" y="171" key="FileChooserDialogImpl/0.0.1536.832@0.0.1536.832" timestamp="1610333943428" />
+    <state x="570" y="171" key="FileChooserDialogImpl/0.0.1536.832@0.0.1536.832" timestamp="1614237764987" />
     <state width="1172" height="250" key="GridCell.Tab.0.bottom" timestamp="1610332831141">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
@@ -272,10 +300,10 @@
       <screen x="0" y="0" width="1536" height="832" />
     </state>
     <state x="478" y="136" width="844" height="604" key="NewModule_or_Project.wizard/0.0.1536.832@0.0.1536.832" timestamp="1610094468488" />
-    <state x="195" y="58" width="996" height="707" key="SettingsEditor" timestamp="1610099273075">
+    <state x="195" y="58" width="996" height="707" key="SettingsEditor" timestamp="1614237770667">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state x="195" y="58" width="996" height="707" key="SettingsEditor/0.0.1536.832@0.0.1536.832" timestamp="1610099273075" />
+    <state x="195" y="58" width="996" height="707" key="SettingsEditor/0.0.1536.832@0.0.1536.832" timestamp="1614237770667" />
     <state x="337" y="211" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1610073904151">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
